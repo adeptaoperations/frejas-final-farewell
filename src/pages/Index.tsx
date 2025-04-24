@@ -4,9 +4,9 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 p-4">
-      <Card className="w-full max-w-xl shadow-lg border-0">
-        <CardContent className="p-8 md:p-10">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F1F0FB] to-[#D3E4FD] p-4">
+      <Card className="w-full max-w-xl shadow-2xl border-0 rounded-xl overflow-hidden">
+        <CardContent className="p-8 md:p-10 bg-white/90 backdrop-blur-sm">
           <div className="flex flex-col items-center text-center space-y-6">
             <div className="w-20 h-1 bg-gray-300 rounded mb-2" />
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
