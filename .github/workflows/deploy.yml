@@ -1,12 +1,15 @@
-name: Deploy Vite site to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main
+
+permissions:
+  contents: write  # ✅ This is what fixes the 403 error
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
