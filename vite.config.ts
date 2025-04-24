@@ -1,10 +1,11 @@
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/", // ✅ Required for GitHub Pages (custom domain)
+  base: "/frejas-final-farewell/", // ✅ Required for GitHub Pages (non-custom domain)
   server: {
     host: "::",
     port: 8080,
